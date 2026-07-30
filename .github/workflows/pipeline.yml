@@ -20,7 +20,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install pandas requests schedule
+          pip install -r requirements.txt
 
       - name: Run pipeline
         run: python src/pipeline.py
