@@ -1,0 +1,35 @@
+name: Data Pipeline CI
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 */6 * * *"
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install pandas requests schedule
+
+      - name: Run pipeline
+        run: python src/pipeline.py
+
+      - name: Run analysis
+        run: python src/analyze_trends.py
+
+      - name: Upload outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: trend-analysis
+          path: outputs/

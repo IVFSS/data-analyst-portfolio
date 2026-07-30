@@ -1,0 +1,732 @@
+date,store_id,product_name,units_sold,revenue,stock_level,promotion,region,day_of_week,month,quarter,year
+2023-01-01,S004,Vitamin D,44,782.56,283,False,West,Sunday,1,1,2023
+2023-01-02,S005,Vitamin C,140,628.9,467,False,South,Monday,1,1,2023
+2023-01-03,S003,Ibuprofen,117,1315.7,172,False,North,Tuesday,1,1,2023
+2023-01-04,S005,Aspirin,181,690.34,326,False,West,Wednesday,1,1,2023
+2023-01-05,S005,Ibuprofen,188,1278.91,205,False,East,Thursday,1,1,2023
+2023-01-06,S002,Aspirin,111,1239.17,62,False,West,Friday,1,1,2023
+2023-01-07,S003,Vitamin C,107,1148.71,72,False,North,Saturday,1,1,2023
+2023-01-08,S003,Vitamin C,21,791.82,250,True,West,Sunday,1,1,2023
+2023-01-09,S003,Vitamin D,28,1119.57,123,False,West,Monday,1,1,2023
+2023-01-10,S005,Ibuprofen,110,1213.15,374,False,North,Tuesday,1,1,2023
+2023-01-11,S004,Omega-3,53,1114.09,120,False,South,Wednesday,1,1,2023
+2023-01-12,S003,Vitamin D,196,916.62,274,False,South,Thursday,1,1,2023
+2023-01-13,S005,Ibuprofen,58,78.6,430,True,North,Friday,1,1,2023
+2023-01-14,S002,Vitamin D,198,1194.77,499,False,West,Saturday,1,1,2023
+2023-01-15,S004,Omega-3,26,378.47,397,True,North,Sunday,1,1,2023
+2023-01-16,S002,Paracetamol,83,1303.02,119,False,South,Monday,1,1,2023
+2023-01-17,S004,Paracetamol,66,1530.72,421,False,East,Tuesday,1,1,2023
+2023-01-18,S005,Paracetamol,64,1025.87,436,True,West,Wednesday,1,1,2023
+2023-01-19,S001,Paracetamol,56,1107.61,316,False,South,Thursday,1,1,2023
+2023-01-20,S004,Magnesium,21,1905.38,163,True,West,Friday,1,1,2023
+2023-01-21,S002,Aspirin,71,1701.98,423,False,North,Saturday,1,1,2023
+2023-01-22,S005,Magnesium,89,1832.76,464,False,East,Sunday,1,1,2023
+2023-01-23,S004,Magnesium,92,1636.84,285,True,North,Monday,1,1,2023
+2023-01-24,S001,Magnesium,17,262.39,264,False,East,Tuesday,1,1,2023
+2023-01-25,S001,Paracetamol,158,340.53,319,True,West,Wednesday,1,1,2023
+2023-01-26,S003,Omega-3,90,1076.92,160,False,West,Thursday,1,1,2023
+2023-01-27,S003,Vitamin C,127,529.84,375,False,North,Friday,1,1,2023
+2023-01-28,S002,Vitamin C,34,979.56,307,False,East,Saturday,1,1,2023
+2023-01-29,S004,Aspirin,98,819.01,88,True,East,Sunday,1,1,2023
+2023-01-30,S004,Paracetamol,21,1121.36,141,False,West,Monday,1,1,2023
+2023-01-31,S003,Paracetamol,152,1506.41,202,False,North,Tuesday,1,1,2023
+2023-02-01,S004,Paracetamol,68,1445.21,308,False,East,Wednesday,2,1,2023
+2023-02-02,S004,Vitamin D,163,1066.41,226,False,West,Thursday,2,1,2023
+2023-02-03,S001,Ibuprofen,118,1653.67,488,False,South,Friday,2,1,2023
+2023-02-04,S003,Vitamin D,35,890.18,442,False,North,Saturday,2,1,2023
+2023-02-05,S005,Ibuprofen,56,1798.59,333,False,South,Sunday,2,1,2023
+2023-02-06,S003,Paracetamol,41,189.0,221,False,North,Monday,2,1,2023
+2023-02-07,S005,Paracetamol,19,1911.59,40,False,West,Tuesday,2,1,2023
+2023-02-08,S001,Vitamin D,25,1326.65,195,False,East,Wednesday,2,1,2023
+2023-02-09,S002,Vitamin D,154,791.15,67,True,East,Thursday,2,1,2023
+2023-02-10,S004,Ibuprofen,160,434.45,475,False,East,Friday,2,1,2023
+2023-02-11,S001,Vitamin C,35,984.41,263,False,North,Saturday,2,1,2023
+2023-02-12,S004,Ibuprofen,95,429.39,1,False,West,Sunday,2,1,2023
+2023-02-13,S002,Vitamin D,144,374.35,360,False,South,Monday,2,1,2023
+2023-02-14,S002,Omega-3,23,1253.84,124,False,West,Tuesday,2,1,2023
+2023-02-15,S001,Vitamin D,88,1070.02,109,True,South,Wednesday,2,1,2023
+2023-02-16,S002,Omega-3,126,1356.69,85,True,North,Thursday,2,1,2023
+2023-02-17,S005,Aspirin,16,1862.73,424,False,North,Friday,2,1,2023
+2023-02-18,S002,Vitamin D,146,1087.91,119,False,South,Saturday,2,1,2023
+2023-02-19,S004,Aspirin,124,1182.82,126,False,South,Sunday,2,1,2023
+2023-02-20,S004,Vitamin C,185,224.77,254,False,South,Monday,2,1,2023
+2023-02-21,S004,Ibuprofen,81,1449.39,182,False,West,Tuesday,2,1,2023
+2023-02-22,S004,Omega-3,68,829.82,15,False,South,Wednesday,2,1,2023
+2023-02-23,S005,Ibuprofen,91,1954.61,476,False,North,Thursday,2,1,2023
+2023-02-24,S003,Aspirin,125,1655.19,61,True,North,Friday,2,1,2023
+2023-02-25,S001,Omega-3,176,1068.84,368,False,East,Saturday,2,1,2023
+2023-02-26,S004,Ibuprofen,155,290.28,431,False,South,Sunday,2,1,2023
+2023-02-27,S002,Vitamin D,196,1725.86,157,True,West,Monday,2,1,2023
+2023-02-28,S004,Paracetamol,112,1609.57,267,False,West,Tuesday,2,1,2023
+2023-03-01,S002,Aspirin,26,409.94,34,False,West,Wednesday,3,1,2023
+2023-03-02,S002,Ibuprofen,23,625.79,266,False,East,Thursday,3,1,2023
+2023-03-03,S004,Aspirin,168,1597.14,63,False,North,Friday,3,1,2023
+2023-03-04,S005,Magnesium,161,411.2,493,False,West,Saturday,3,1,2023
+2023-03-05,S002,Aspirin,117,1839.62,49,False,North,Sunday,3,1,2023
+2023-03-06,S002,Omega-3,197,877.83,468,False,East,Monday,3,1,2023
+2023-03-07,S004,Magnesium,54,219.73,254,False,South,Tuesday,3,1,2023
+2023-03-08,S002,Omega-3,107,1640.71,148,True,South,Wednesday,3,1,2023
+2023-03-09,S002,Paracetamol,140,778.34,324,False,South,Thursday,3,1,2023
+2023-03-10,S004,Magnesium,46,1076.67,303,False,West,Friday,3,1,2023
+2023-03-11,S004,Vitamin D,180,268.99,275,False,South,Saturday,3,1,2023
+2023-03-12,S001,Aspirin,177,55.04,356,False,West,Sunday,3,1,2023
+2023-03-13,S005,Ibuprofen,192,1294.07,450,False,East,Monday,3,1,2023
+2023-03-14,S005,Vitamin C,117,1054.59,171,False,East,Tuesday,3,1,2023
+2023-03-15,S002,Aspirin,48,1207.4,416,False,West,Wednesday,3,1,2023
+2023-03-16,S005,Aspirin,24,1597.8,200,False,North,Thursday,3,1,2023
+2023-03-17,S002,Paracetamol,129,1310.88,444,False,South,Friday,3,1,2023
+2023-03-18,S001,Vitamin D,13,390.81,392,False,South,Saturday,3,1,2023
+2023-03-19,S004,Vitamin C,102,753.51,323,False,South,Sunday,3,1,2023
+2023-03-20,S004,Magnesium,162,1816.49,34,False,West,Monday,3,1,2023
+2023-03-21,S004,Magnesium,150,1551.39,464,True,East,Tuesday,3,1,2023
+2023-03-22,S005,Magnesium,170,1135.44,481,False,South,Wednesday,3,1,2023
+2023-03-23,S001,Omega-3,25,548.51,215,False,East,Thursday,3,1,2023
+2023-03-24,S005,Omega-3,179,639.02,479,False,South,Friday,3,1,2023
+2023-03-25,S005,Ibuprofen,117,1477.32,64,False,South,Saturday,3,1,2023
+2023-03-26,S001,Vitamin C,135,1709.79,7,False,West,Sunday,3,1,2023
+2023-03-27,S001,Magnesium,64,1359.28,300,False,North,Monday,3,1,2023
+2023-03-28,S001,Omega-3,179,1628.58,342,True,West,Tuesday,3,1,2023
+2023-03-29,S001,Ibuprofen,43,1544.98,430,False,South,Wednesday,3,1,2023
+2023-03-30,S004,Vitamin D,167,341.92,423,False,South,Thursday,3,1,2023
+2023-03-31,S003,Ibuprofen,22,876.69,331,False,North,Friday,3,1,2023
+2023-04-01,S003,Omega-3,150,348.32,437,True,East,Saturday,4,2,2023
+2023-04-02,S001,Paracetamol,27,508.71,75,True,East,Sunday,4,2,2023
+2023-04-03,S003,Paracetamol,169,1745.06,173,False,South,Monday,4,2,2023
+2023-04-04,S003,Magnesium,105,972.14,46,False,East,Tuesday,4,2,2023
+2023-04-05,S001,Paracetamol,132,1093.95,14,False,South,Wednesday,4,2,2023
+2023-04-06,S003,Magnesium,48,397.97,360,True,North,Thursday,4,2,2023
+2023-04-07,S005,Magnesium,55,658.93,146,False,North,Friday,4,2,2023
+2023-04-08,S002,Omega-3,38,498.98,25,False,South,Saturday,4,2,2023
+2023-04-09,S002,Paracetamol,199,452.06,307,True,North,Sunday,4,2,2023
+2023-04-10,S001,Magnesium,71,1294.02,92,True,West,Monday,4,2,2023
+2023-04-11,S004,Vitamin C,194,550.92,405,False,West,Tuesday,4,2,2023
+2023-04-12,S001,Vitamin D,25,1282.43,231,False,North,Wednesday,4,2,2023
+2023-04-13,S004,Ibuprofen,193,163.99,20,False,South,Thursday,4,2,2023
+2023-04-14,S002,Ibuprofen,130,326.46,306,False,South,Friday,4,2,2023
+2023-04-15,S001,Omega-3,19,585.35,37,False,North,Saturday,4,2,2023
+2023-04-16,S005,Paracetamol,167,1214.24,275,True,East,Sunday,4,2,2023
+2023-04-17,S003,Paracetamol,162,1367.89,156,False,West,Monday,4,2,2023
+2023-04-18,S004,Magnesium,112,913.3,178,False,East,Tuesday,4,2,2023
+2023-04-19,S003,Aspirin,93,919.29,131,False,South,Wednesday,4,2,2023
+2023-04-20,S003,Magnesium,142,1462.81,310,False,South,Thursday,4,2,2023
+2023-04-21,S001,Vitamin D,74,80.85,454,False,East,Friday,4,2,2023
+2023-04-22,S003,Vitamin C,186,715.13,347,False,North,Saturday,4,2,2023
+2023-04-23,S005,Ibuprofen,12,1646.48,27,False,East,Sunday,4,2,2023
+2023-04-24,S003,Magnesium,182,1226.28,259,False,East,Monday,4,2,2023
+2023-04-25,S001,Aspirin,151,707.59,405,False,West,Tuesday,4,2,2023
+2023-04-26,S005,Aspirin,129,1815.77,75,True,West,Wednesday,4,2,2023
+2023-04-27,S002,Magnesium,167,1556.61,428,True,East,Thursday,4,2,2023
+2023-04-28,S003,Omega-3,77,566.55,66,False,East,Friday,4,2,2023
+2023-04-29,S001,Ibuprofen,155,1308.32,341,False,South,Saturday,4,2,2023
+2023-04-30,S002,Omega-3,199,1211.71,491,True,West,Sunday,4,2,2023
+2023-05-01,S002,Vitamin C,46,832.32,193,False,West,Monday,5,2,2023
+2023-05-02,S004,Aspirin,162,765.56,471,True,South,Tuesday,5,2,2023
+2023-05-03,S005,Aspirin,185,719.94,161,False,North,Wednesday,5,2,2023
+2023-05-04,S003,Vitamin D,190,1253.45,346,False,West,Thursday,5,2,2023
+2023-05-05,S001,Vitamin C,82,912.7,438,False,West,Friday,5,2,2023
+2023-05-06,S004,Aspirin,152,1672.13,360,False,North,Saturday,5,2,2023
+2023-05-07,S005,Vitamin C,58,1355.73,256,False,West,Sunday,5,2,2023
+2023-05-08,S004,Ibuprofen,130,186.37,71,True,West,Monday,5,2,2023
+2023-05-09,S005,Paracetamol,97,1298.33,86,False,North,Tuesday,5,2,2023
+2023-05-10,S005,Aspirin,149,578.74,421,False,North,Wednesday,5,2,2023
+2023-05-11,S003,Vitamin D,196,1205.98,261,False,East,Thursday,5,2,2023
+2023-05-12,S005,Ibuprofen,46,1376.26,213,False,South,Friday,5,2,2023
+2023-05-13,S004,Magnesium,70,500.12,152,True,South,Saturday,5,2,2023
+2023-05-14,S005,Vitamin C,180,940.87,209,False,North,Sunday,5,2,2023
+2023-05-15,S003,Magnesium,133,421.13,400,False,North,Monday,5,2,2023
+2023-05-16,S003,Omega-3,48,152.06,60,False,West,Tuesday,5,2,2023
+2023-05-17,S004,Ibuprofen,193,788.03,267,False,East,Wednesday,5,2,2023
+2023-05-18,S002,Magnesium,72,757.74,261,False,East,Thursday,5,2,2023
+2023-05-19,S002,Aspirin,55,1991.19,217,False,North,Friday,5,2,2023
+2023-05-20,S005,Vitamin C,97,920.39,282,True,West,Saturday,5,2,2023
+2023-05-21,S001,Paracetamol,20,700.46,135,False,West,Sunday,5,2,2023
+2023-05-22,S005,Ibuprofen,71,1181.93,466,False,South,Monday,5,2,2023
+2023-05-23,S004,Aspirin,86,223.1,379,False,South,Tuesday,5,2,2023
+2023-05-24,S004,Vitamin D,162,1925.25,361,False,West,Wednesday,5,2,2023
+2023-05-25,S004,Omega-3,61,1288.17,448,False,South,Thursday,5,2,2023
+2023-05-26,S004,Vitamin C,13,1521.93,440,True,North,Friday,5,2,2023
+2023-05-27,S004,Ibuprofen,68,382.43,92,False,West,Saturday,5,2,2023
+2023-05-28,S003,Ibuprofen,81,848.48,108,False,South,Sunday,5,2,2023
+2023-05-29,S002,Paracetamol,157,874.24,240,False,East,Monday,5,2,2023
+2023-05-30,S004,Paracetamol,102,1652.52,354,False,West,Tuesday,5,2,2023
+2023-05-31,S001,Vitamin D,72,52.41,423,False,West,Wednesday,5,2,2023
+2023-06-01,S001,Omega-3,63,636.66,141,False,East,Thursday,6,2,2023
+2023-06-02,S001,Vitamin D,126,1963.41,290,True,North,Friday,6,2,2023
+2023-06-03,S001,Aspirin,119,976.03,431,False,East,Saturday,6,2,2023
+2023-06-04,S003,Aspirin,83,795.93,236,False,West,Sunday,6,2,2023
+2023-06-05,S001,Vitamin D,116,283.67,339,True,North,Monday,6,2,2023
+2023-06-06,S004,Omega-3,66,1949.62,311,True,South,Tuesday,6,2,2023
+2023-06-07,S005,Vitamin D,178,89.05,176,False,South,Wednesday,6,2,2023
+2023-06-08,S001,Omega-3,12,1487.5,140,False,South,Thursday,6,2,2023
+2023-06-09,S003,Omega-3,129,1548.77,188,False,West,Friday,6,2,2023
+2023-06-10,S003,Magnesium,15,525.13,485,True,East,Saturday,6,2,2023
+2023-06-11,S001,Vitamin C,14,1359.54,48,False,North,Sunday,6,2,2023
+2023-06-12,S005,Omega-3,14,231.21,301,False,South,Monday,6,2,2023
+2023-06-13,S001,Paracetamol,63,551.24,368,False,North,Tuesday,6,2,2023
+2023-06-14,S003,Omega-3,56,1586.41,189,False,West,Wednesday,6,2,2023
+2023-06-15,S002,Omega-3,186,1736.14,135,False,South,Thursday,6,2,2023
+2023-06-16,S004,Omega-3,18,1236.55,42,False,West,Friday,6,2,2023
+2023-06-17,S003,Magnesium,108,1038.33,403,False,East,Saturday,6,2,2023
+2023-06-18,S001,Magnesium,29,360.64,379,False,West,Sunday,6,2,2023
+2023-06-19,S004,Aspirin,131,173.06,352,False,West,Monday,6,2,2023
+2023-06-20,S001,Magnesium,70,279.42,89,False,East,Tuesday,6,2,2023
+2023-06-21,S001,Paracetamol,132,493.35,294,False,North,Wednesday,6,2,2023
+2023-06-22,S002,Paracetamol,172,716.27,340,True,East,Thursday,6,2,2023
+2023-06-23,S004,Magnesium,187,792.77,244,True,East,Friday,6,2,2023
+2023-06-24,S004,Vitamin D,91,725.33,432,True,West,Saturday,6,2,2023
+2023-06-25,S002,Vitamin C,71,516.16,191,False,North,Sunday,6,2,2023
+2023-06-26,S003,Magnesium,154,1043.96,317,False,South,Monday,6,2,2023
+2023-06-27,S001,Omega-3,12,1659.31,105,True,East,Tuesday,6,2,2023
+2023-06-28,S005,Ibuprofen,169,595.42,362,False,North,Wednesday,6,2,2023
+2023-06-29,S001,Vitamin C,22,1887.65,309,False,East,Thursday,6,2,2023
+2023-06-30,S001,Vitamin C,129,1753.01,381,False,East,Friday,6,2,2023
+2023-07-01,S003,Paracetamol,134,365.44,232,False,East,Saturday,7,3,2023
+2023-07-02,S001,Vitamin C,98,1583.24,264,False,East,Sunday,7,3,2023
+2023-07-03,S002,Magnesium,82,1170.45,343,True,West,Monday,7,3,2023
+2023-07-04,S002,Omega-3,77,1154.82,36,False,North,Tuesday,7,3,2023
+2023-07-05,S004,Omega-3,151,812.53,304,False,North,Wednesday,7,3,2023
+2023-07-06,S005,Aspirin,110,1027.25,40,False,North,Thursday,7,3,2023
+2023-07-07,S001,Omega-3,107,824.5,16,False,East,Friday,7,3,2023
+2023-07-08,S001,Omega-3,20,1102.48,343,False,West,Saturday,7,3,2023
+2023-07-09,S003,Paracetamol,114,1274.5,276,True,East,Sunday,7,3,2023
+2023-07-10,S002,Omega-3,193,1364.89,306,True,East,Monday,7,3,2023
+2023-07-11,S005,Aspirin,76,1088.34,58,False,North,Tuesday,7,3,2023
+2023-07-12,S004,Ibuprofen,132,1456.77,422,False,East,Wednesday,7,3,2023
+2023-07-13,S002,Magnesium,38,325.49,182,True,South,Thursday,7,3,2023
+2023-07-14,S004,Paracetamol,146,463.37,40,False,East,Friday,7,3,2023
+2023-07-15,S003,Ibuprofen,162,1646.53,38,False,South,Saturday,7,3,2023
+2023-07-16,S003,Paracetamol,85,678.93,396,False,East,Sunday,7,3,2023
+2023-07-17,S001,Vitamin D,179,94.64,191,False,West,Monday,7,3,2023
+2023-07-18,S005,Vitamin C,18,349.89,266,False,West,Tuesday,7,3,2023
+2023-07-19,S004,Vitamin D,49,486.05,493,False,North,Wednesday,7,3,2023
+2023-07-20,S002,Omega-3,34,1916.78,146,True,East,Thursday,7,3,2023
+2023-07-21,S003,Ibuprofen,14,1167.43,394,False,South,Friday,7,3,2023
+2023-07-22,S001,Omega-3,148,1868.82,332,False,South,Saturday,7,3,2023
+2023-07-23,S001,Vitamin C,196,1171.57,126,False,East,Sunday,7,3,2023
+2023-07-24,S004,Paracetamol,133,984.74,45,False,South,Monday,7,3,2023
+2023-07-25,S003,Vitamin C,47,661.77,44,False,West,Tuesday,7,3,2023
+2023-07-26,S005,Aspirin,81,1232.42,0,False,South,Wednesday,7,3,2023
+2023-07-27,S003,Vitamin C,142,321.44,167,False,North,Thursday,7,3,2023
+2023-07-28,S004,Aspirin,185,1801.61,107,False,West,Friday,7,3,2023
+2023-07-29,S004,Vitamin C,99,1667.2,18,True,West,Saturday,7,3,2023
+2023-07-30,S003,Magnesium,155,669.19,331,False,West,Sunday,7,3,2023
+2023-07-31,S004,Aspirin,46,1907.96,71,False,East,Monday,7,3,2023
+2023-08-01,S003,Ibuprofen,69,1659.14,455,True,East,Tuesday,8,3,2023
+2023-08-02,S002,Omega-3,185,1349.3,444,False,West,Wednesday,8,3,2023
+2023-08-03,S003,Omega-3,37,287.44,108,False,East,Thursday,8,3,2023
+2023-08-04,S003,Vitamin D,90,982.56,267,False,South,Friday,8,3,2023
+2023-08-05,S004,Omega-3,123,1036.91,444,False,East,Saturday,8,3,2023
+2023-08-06,S004,Paracetamol,49,503.48,239,False,East,Sunday,8,3,2023
+2023-08-07,S001,Magnesium,54,205.93,416,False,West,Monday,8,3,2023
+2023-08-08,S001,Vitamin C,71,1564.61,300,False,North,Tuesday,8,3,2023
+2023-08-09,S002,Vitamin D,102,287.97,89,True,North,Wednesday,8,3,2023
+2023-08-10,S001,Paracetamol,124,1208.87,102,False,North,Thursday,8,3,2023
+2023-08-11,S003,Paracetamol,195,1876.08,475,False,South,Friday,8,3,2023
+2023-08-12,S004,Aspirin,76,1758.41,249,False,East,Saturday,8,3,2023
+2023-08-13,S001,Omega-3,65,591.62,452,False,North,Sunday,8,3,2023
+2023-08-14,S001,Ibuprofen,49,1710.32,7,False,West,Monday,8,3,2023
+2023-08-15,S002,Ibuprofen,107,50.65,152,True,North,Tuesday,8,3,2023
+2023-08-16,S002,Vitamin D,49,84.49,346,False,North,Wednesday,8,3,2023
+2023-08-17,S003,Magnesium,100,1224.98,173,False,East,Thursday,8,3,2023
+2023-08-18,S004,Ibuprofen,42,761.36,342,False,East,Friday,8,3,2023
+2023-08-19,S002,Vitamin C,15,803.6,157,True,East,Saturday,8,3,2023
+2023-08-20,S001,Ibuprofen,156,1150.66,492,True,South,Sunday,8,3,2023
+2023-08-21,S004,Vitamin D,89,423.98,430,False,South,Monday,8,3,2023
+2023-08-22,S004,Ibuprofen,177,462.92,214,False,North,Tuesday,8,3,2023
+2023-08-23,S001,Vitamin C,101,994.97,176,False,East,Wednesday,8,3,2023
+2023-08-24,S002,Aspirin,106,1520.79,174,False,North,Thursday,8,3,2023
+2023-08-25,S001,Magnesium,68,1258.02,339,False,West,Friday,8,3,2023
+2023-08-26,S004,Vitamin D,68,629.84,337,False,West,Saturday,8,3,2023
+2023-08-27,S005,Aspirin,57,889.16,145,False,East,Sunday,8,3,2023
+2023-08-28,S005,Aspirin,178,382.8,449,False,East,Monday,8,3,2023
+2023-08-29,S003,Aspirin,22,195.53,323,True,West,Tuesday,8,3,2023
+2023-08-30,S001,Paracetamol,116,1576.26,477,False,East,Wednesday,8,3,2023
+2023-08-31,S001,Magnesium,54,567.51,160,True,South,Thursday,8,3,2023
+2023-09-01,S003,Omega-3,98,396.64,126,False,South,Friday,9,3,2023
+2023-09-02,S003,Magnesium,190,1398.66,419,False,East,Saturday,9,3,2023
+2023-09-03,S003,Paracetamol,179,1255.2,81,True,West,Sunday,9,3,2023
+2023-09-04,S004,Omega-3,109,1284.72,484,False,North,Monday,9,3,2023
+2023-09-05,S001,Magnesium,164,496.34,146,False,East,Tuesday,9,3,2023
+2023-09-06,S004,Aspirin,175,503.66,238,False,East,Wednesday,9,3,2023
+2023-09-07,S003,Vitamin D,197,480.57,411,False,North,Thursday,9,3,2023
+2023-09-08,S001,Omega-3,16,388.82,423,True,East,Friday,9,3,2023
+2023-09-09,S004,Vitamin C,142,1328.66,83,False,North,Saturday,9,3,2023
+2023-09-10,S004,Vitamin C,54,1703.63,112,False,West,Sunday,9,3,2023
+2023-09-11,S003,Ibuprofen,67,1462.42,224,False,South,Monday,9,3,2023
+2023-09-12,S001,Omega-3,40,1594.58,331,False,West,Tuesday,9,3,2023
+2023-09-13,S003,Vitamin D,32,839.36,377,False,South,Wednesday,9,3,2023
+2023-09-14,S001,Paracetamol,179,1325.45,242,False,North,Thursday,9,3,2023
+2023-09-15,S005,Aspirin,147,740.76,142,False,South,Friday,9,3,2023
+2023-09-16,S002,Ibuprofen,169,1074.73,40,False,West,Saturday,9,3,2023
+2023-09-17,S002,Vitamin C,116,989.19,422,False,South,Sunday,9,3,2023
+2023-09-18,S002,Paracetamol,190,394.93,257,False,North,Monday,9,3,2023
+2023-09-19,S003,Paracetamol,167,804.8,446,False,South,Tuesday,9,3,2023
+2023-09-20,S005,Aspirin,48,1929.45,284,False,East,Wednesday,9,3,2023
+2023-09-21,S001,Omega-3,168,534.73,104,False,West,Thursday,9,3,2023
+2023-09-22,S004,Vitamin C,91,310.92,201,False,East,Friday,9,3,2023
+2023-09-23,S001,Vitamin D,109,866.23,449,True,North,Saturday,9,3,2023
+2023-09-24,S004,Paracetamol,11,1591.16,306,False,South,Sunday,9,3,2023
+2023-09-25,S001,Aspirin,86,1185.19,330,True,East,Monday,9,3,2023
+2023-09-26,S005,Vitamin D,21,1377.9,460,False,East,Tuesday,9,3,2023
+2023-09-27,S004,Omega-3,48,419.9,265,False,South,Wednesday,9,3,2023
+2023-09-28,S003,Vitamin C,22,1256.95,397,True,South,Thursday,9,3,2023
+2023-09-29,S001,Omega-3,55,680.83,209,True,West,Friday,9,3,2023
+2023-09-30,S001,Paracetamol,164,1676.89,50,True,East,Saturday,9,3,2023
+2023-10-01,S004,Vitamin D,122,1277.13,117,False,East,Sunday,10,4,2023
+2023-10-02,S003,Vitamin D,26,437.77,200,False,North,Monday,10,4,2023
+2023-10-03,S003,Vitamin D,113,176.0,376,False,West,Tuesday,10,4,2023
+2023-10-04,S005,Paracetamol,107,133.13,38,False,North,Wednesday,10,4,2023
+2023-10-05,S003,Paracetamol,197,774.25,27,False,East,Thursday,10,4,2023
+2023-10-06,S003,Omega-3,97,568.41,258,False,North,Friday,10,4,2023
+2023-10-07,S003,Ibuprofen,118,1309.88,83,False,East,Saturday,10,4,2023
+2023-10-08,S002,Omega-3,172,1023.7,453,False,East,Sunday,10,4,2023
+2023-10-09,S005,Vitamin C,79,568.74,154,False,North,Monday,10,4,2023
+2023-10-10,S001,Aspirin,167,341.01,116,False,North,Tuesday,10,4,2023
+2023-10-11,S004,Vitamin D,83,298.04,1,False,South,Wednesday,10,4,2023
+2023-10-12,S001,Ibuprofen,72,1736.09,92,False,South,Thursday,10,4,2023
+2023-10-13,S005,Aspirin,165,524.78,165,False,South,Friday,10,4,2023
+2023-10-14,S004,Ibuprofen,69,1320.84,386,False,East,Saturday,10,4,2023
+2023-10-15,S005,Magnesium,88,1630.84,399,False,North,Sunday,10,4,2023
+2023-10-16,S003,Omega-3,46,1247.46,349,False,West,Monday,10,4,2023
+2023-10-17,S004,Paracetamol,31,1726.15,295,False,East,Tuesday,10,4,2023
+2023-10-18,S003,Vitamin D,157,815.17,257,False,West,Wednesday,10,4,2023
+2023-10-19,S001,Omega-3,105,1914.63,80,False,North,Thursday,10,4,2023
+2023-10-20,S001,Aspirin,77,309.63,424,True,East,Friday,10,4,2023
+2023-10-21,S004,Magnesium,26,249.19,267,False,West,Saturday,10,4,2023
+2023-10-22,S004,Magnesium,21,1334.45,418,False,West,Sunday,10,4,2023
+2023-10-23,S005,Magnesium,159,1888.52,234,False,South,Monday,10,4,2023
+2023-10-24,S005,Aspirin,154,1627.32,320,True,South,Tuesday,10,4,2023
+2023-10-25,S003,Aspirin,147,199.01,310,True,South,Wednesday,10,4,2023
+2023-10-26,S004,Aspirin,127,594.77,300,False,East,Thursday,10,4,2023
+2023-10-27,S001,Aspirin,31,1864.12,462,False,North,Friday,10,4,2023
+2023-10-28,S005,Magnesium,129,543.46,473,False,North,Saturday,10,4,2023
+2023-10-29,S005,Magnesium,59,1573.28,356,False,South,Sunday,10,4,2023
+2023-10-30,S001,Ibuprofen,23,1659.01,212,False,South,Monday,10,4,2023
+2023-10-31,S005,Omega-3,184,1016.13,61,False,South,Tuesday,10,4,2023
+2023-11-01,S003,Vitamin D,38,803.38,48,False,West,Wednesday,11,4,2023
+2023-11-02,S004,Paracetamol,173,927.74,126,False,South,Thursday,11,4,2023
+2023-11-03,S001,Magnesium,189,492.58,222,False,West,Friday,11,4,2023
+2023-11-04,S004,Paracetamol,134,1784.31,408,True,North,Saturday,11,4,2023
+2023-11-05,S005,Omega-3,16,928.71,278,False,East,Sunday,11,4,2023
+2023-11-06,S005,Omega-3,38,1770.8,407,False,East,Monday,11,4,2023
+2023-11-07,S001,Paracetamol,148,256.1,293,False,East,Tuesday,11,4,2023
+2023-11-08,S003,Magnesium,42,1977.14,283,False,East,Wednesday,11,4,2023
+2023-11-09,S002,Paracetamol,143,914.38,276,True,West,Thursday,11,4,2023
+2023-11-10,S001,Ibuprofen,120,143.27,437,True,West,Friday,11,4,2023
+2023-11-11,S002,Vitamin C,88,124.14,106,False,South,Saturday,11,4,2023
+2023-11-12,S002,Magnesium,169,1505.1,145,True,West,Sunday,11,4,2023
+2023-11-13,S003,Magnesium,188,1335.12,419,False,South,Monday,11,4,2023
+2023-11-14,S002,Vitamin D,67,1614.15,98,False,South,Tuesday,11,4,2023
+2023-11-15,S002,Aspirin,35,255.47,428,True,East,Wednesday,11,4,2023
+2023-11-16,S003,Vitamin C,183,119.36,374,False,West,Thursday,11,4,2023
+2023-11-17,S002,Omega-3,38,1041.73,72,False,West,Friday,11,4,2023
+2023-11-18,S002,Magnesium,13,805.81,436,False,South,Saturday,11,4,2023
+2023-11-19,S002,Paracetamol,108,950.8,485,False,South,Sunday,11,4,2023
+2023-11-20,S001,Vitamin C,150,1983.6,121,False,North,Monday,11,4,2023
+2023-11-21,S001,Vitamin D,48,1942.96,29,True,North,Tuesday,11,4,2023
+2023-11-22,S001,Omega-3,24,1887.52,187,False,South,Wednesday,11,4,2023
+2023-11-23,S003,Aspirin,128,1578.49,363,False,North,Thursday,11,4,2023
+2023-11-24,S005,Aspirin,38,741.94,353,False,North,Friday,11,4,2023
+2023-11-25,S002,Vitamin D,166,853.66,287,False,South,Saturday,11,4,2023
+2023-11-26,S002,Vitamin D,84,1121.75,450,False,South,Sunday,11,4,2023
+2023-11-27,S003,Paracetamol,125,1669.54,194,False,West,Monday,11,4,2023
+2023-11-28,S002,Magnesium,41,183.99,155,False,South,Tuesday,11,4,2023
+2023-11-29,S001,Aspirin,139,877.38,171,False,South,Wednesday,11,4,2023
+2023-11-30,S005,Omega-3,184,211.1,334,False,East,Thursday,11,4,2023
+2023-12-01,S004,Vitamin C,93,1053.58,40,False,West,Friday,12,4,2023
+2023-12-02,S002,Omega-3,31,1802.86,62,False,West,Saturday,12,4,2023
+2023-12-03,S001,Ibuprofen,36,1575.85,22,True,West,Sunday,12,4,2023
+2023-12-04,S004,Ibuprofen,90,494.29,359,False,East,Monday,12,4,2023
+2023-12-05,S005,Vitamin D,135,1953.18,74,False,South,Tuesday,12,4,2023
+2023-12-06,S004,Paracetamol,193,1351.33,47,False,West,Wednesday,12,4,2023
+2023-12-07,S001,Ibuprofen,101,70.33,159,False,West,Thursday,12,4,2023
+2023-12-08,S004,Aspirin,30,548.06,312,False,North,Friday,12,4,2023
+2023-12-09,S003,Omega-3,56,558.39,117,False,West,Saturday,12,4,2023
+2023-12-10,S004,Omega-3,110,185.05,99,False,South,Sunday,12,4,2023
+2023-12-11,S002,Vitamin D,196,1921.66,379,False,South,Monday,12,4,2023
+2023-12-12,S002,Magnesium,93,982.6,416,True,North,Tuesday,12,4,2023
+2023-12-13,S003,Magnesium,15,1796.84,407,False,West,Wednesday,12,4,2023
+2023-12-14,S001,Vitamin C,156,678.32,166,False,West,Thursday,12,4,2023
+2023-12-15,S002,Vitamin D,194,294.21,289,True,West,Friday,12,4,2023
+2023-12-16,S005,Vitamin C,140,974.96,439,False,East,Saturday,12,4,2023
+2023-12-17,S002,Magnesium,10,272.22,155,False,West,Sunday,12,4,2023
+2023-12-18,S002,Vitamin D,67,997.73,420,False,South,Monday,12,4,2023
+2023-12-19,S001,Vitamin D,133,1844.58,6,True,South,Tuesday,12,4,2023
+2023-12-20,S004,Vitamin D,175,1065.5,195,False,East,Wednesday,12,4,2023
+2023-12-21,S002,Magnesium,24,1252.17,420,False,East,Thursday,12,4,2023
+2023-12-22,S003,Vitamin C,171,355.44,55,False,West,Friday,12,4,2023
+2023-12-23,S004,Vitamin C,198,135.28,320,False,North,Saturday,12,4,2023
+2023-12-24,S005,Vitamin D,172,266.08,192,False,East,Sunday,12,4,2023
+2023-12-25,S001,Ibuprofen,73,1217.14,46,True,East,Monday,12,4,2023
+2023-12-26,S005,Paracetamol,34,235.27,147,False,West,Tuesday,12,4,2023
+2023-12-27,S004,Magnesium,33,783.19,274,False,West,Wednesday,12,4,2023
+2023-12-28,S004,Paracetamol,21,1122.68,156,False,East,Thursday,12,4,2023
+2023-12-29,S004,Paracetamol,27,807.87,201,False,North,Friday,12,4,2023
+2023-12-30,S005,Vitamin C,24,369.18,443,False,East,Saturday,12,4,2023
+2023-12-31,S004,Vitamin C,36,583.89,401,False,West,Sunday,12,4,2023
+2024-01-01,S005,Ibuprofen,81,1860.22,475,False,West,Monday,1,1,2024
+2024-01-02,S004,Paracetamol,69,1368.17,418,False,East,Tuesday,1,1,2024
+2024-01-03,S003,Paracetamol,183,1017.29,426,False,North,Wednesday,1,1,2024
+2024-01-04,S004,Vitamin D,154,74.79,494,False,East,Thursday,1,1,2024
+2024-01-05,S005,Vitamin C,102,1985.21,478,False,East,Friday,1,1,2024
+2024-01-06,S002,Paracetamol,62,1359.34,474,False,West,Saturday,1,1,2024
+2024-01-07,S004,Omega-3,17,668.0,125,False,North,Sunday,1,1,2024
+2024-01-08,S002,Ibuprofen,88,1764.57,394,False,South,Monday,1,1,2024
+2024-01-09,S003,Omega-3,36,553.94,304,True,North,Tuesday,1,1,2024
+2024-01-10,S001,Omega-3,183,1110.83,368,False,East,Wednesday,1,1,2024
+2024-01-11,S003,Magnesium,59,1290.34,293,False,East,Thursday,1,1,2024
+2024-01-12,S004,Magnesium,140,481.07,63,False,East,Friday,1,1,2024
+2024-01-13,S002,Ibuprofen,102,1957.87,324,False,North,Saturday,1,1,2024
+2024-01-14,S002,Omega-3,181,1508.97,391,False,West,Sunday,1,1,2024
+2024-01-15,S005,Paracetamol,190,1137.74,417,False,East,Monday,1,1,2024
+2024-01-16,S002,Vitamin C,33,402.16,175,False,East,Tuesday,1,1,2024
+2024-01-17,S005,Ibuprofen,69,155.02,115,False,North,Wednesday,1,1,2024
+2024-01-18,S001,Vitamin D,131,674.12,439,False,South,Thursday,1,1,2024
+2024-01-19,S004,Omega-3,140,1518.72,203,False,South,Friday,1,1,2024
+2024-01-20,S005,Ibuprofen,157,575.2,485,True,West,Saturday,1,1,2024
+2024-01-21,S001,Aspirin,55,1102.13,320,False,West,Sunday,1,1,2024
+2024-01-22,S002,Aspirin,24,1469.5,30,False,East,Monday,1,1,2024
+2024-01-23,S002,Magnesium,162,260.49,387,False,North,Tuesday,1,1,2024
+2024-01-24,S001,Vitamin C,26,1386.33,112,True,East,Wednesday,1,1,2024
+2024-01-25,S002,Paracetamol,135,229.15,364,False,West,Thursday,1,1,2024
+2024-01-26,S001,Vitamin C,93,1932.0,433,True,North,Friday,1,1,2024
+2024-01-27,S005,Vitamin C,18,1002.37,324,False,North,Saturday,1,1,2024
+2024-01-28,S005,Vitamin C,175,343.82,413,False,West,Sunday,1,1,2024
+2024-01-29,S001,Vitamin C,185,717.65,375,False,South,Monday,1,1,2024
+2024-01-30,S005,Vitamin D,197,856.16,343,False,South,Tuesday,1,1,2024
+2024-01-31,S005,Vitamin D,72,1528.46,442,False,North,Wednesday,1,1,2024
+2024-02-01,S005,Magnesium,126,1499.68,66,False,East,Thursday,2,1,2024
+2024-02-02,S003,Ibuprofen,139,1243.28,74,False,South,Friday,2,1,2024
+2024-02-03,S004,Aspirin,97,256.56,44,False,East,Saturday,2,1,2024
+2024-02-04,S002,Vitamin C,81,345.56,259,True,South,Sunday,2,1,2024
+2024-02-05,S003,Magnesium,148,232.83,153,False,South,Monday,2,1,2024
+2024-02-06,S005,Ibuprofen,73,1175.49,154,False,East,Tuesday,2,1,2024
+2024-02-07,S001,Aspirin,81,1760.42,429,False,West,Wednesday,2,1,2024
+2024-02-08,S005,Omega-3,30,895.91,362,True,South,Thursday,2,1,2024
+2024-02-09,S004,Paracetamol,27,363.65,447,False,South,Friday,2,1,2024
+2024-02-10,S005,Vitamin D,73,1138.18,474,False,East,Saturday,2,1,2024
+2024-02-11,S001,Omega-3,91,1632.92,233,False,West,Sunday,2,1,2024
+2024-02-12,S004,Aspirin,119,1496.34,50,True,South,Monday,2,1,2024
+2024-02-13,S005,Omega-3,104,1768.83,305,False,South,Tuesday,2,1,2024
+2024-02-14,S004,Paracetamol,175,591.91,261,True,West,Wednesday,2,1,2024
+2024-02-15,S002,Magnesium,41,428.21,314,False,South,Thursday,2,1,2024
+2024-02-16,S002,Aspirin,20,1765.64,124,False,West,Friday,2,1,2024
+2024-02-17,S005,Omega-3,54,1332.24,398,False,West,Saturday,2,1,2024
+2024-02-18,S004,Vitamin D,42,656.31,244,False,East,Sunday,2,1,2024
+2024-02-19,S001,Vitamin D,111,1497.58,29,False,North,Monday,2,1,2024
+2024-02-20,S005,Ibuprofen,178,1639.48,425,False,West,Tuesday,2,1,2024
+2024-02-21,S002,Omega-3,145,1249.21,484,False,East,Wednesday,2,1,2024
+2024-02-22,S002,Vitamin C,20,1391.37,121,False,North,Thursday,2,1,2024
+2024-02-23,S005,Omega-3,188,781.76,124,False,South,Friday,2,1,2024
+2024-02-24,S004,Magnesium,97,1100.46,36,False,North,Saturday,2,1,2024
+2024-02-25,S002,Aspirin,50,1072.11,169,True,West,Sunday,2,1,2024
+2024-02-26,S004,Aspirin,154,1703.69,123,False,West,Monday,2,1,2024
+2024-02-27,S002,Magnesium,85,1687.93,356,True,West,Tuesday,2,1,2024
+2024-02-28,S002,Omega-3,130,1673.73,34,False,West,Wednesday,2,1,2024
+2024-02-29,S003,Magnesium,55,71.51,86,False,West,Thursday,2,1,2024
+2024-03-01,S002,Paracetamol,169,1511.61,133,False,East,Friday,3,1,2024
+2024-03-02,S001,Magnesium,89,1529.42,195,False,West,Saturday,3,1,2024
+2024-03-03,S005,Vitamin D,63,1372.84,273,False,East,Sunday,3,1,2024
+2024-03-04,S005,Magnesium,95,1524.72,200,False,South,Monday,3,1,2024
+2024-03-05,S004,Aspirin,101,1691.84,368,False,West,Tuesday,3,1,2024
+2024-03-06,S002,Vitamin D,157,967.12,284,False,West,Wednesday,3,1,2024
+2024-03-07,S001,Aspirin,170,1029.0,76,True,North,Thursday,3,1,2024
+2024-03-08,S004,Ibuprofen,177,293.19,58,False,South,Friday,3,1,2024
+2024-03-09,S003,Vitamin C,169,801.48,430,False,West,Saturday,3,1,2024
+2024-03-10,S004,Aspirin,106,1304.56,125,False,West,Sunday,3,1,2024
+2024-03-11,S004,Vitamin D,11,1571.78,499,False,South,Monday,3,1,2024
+2024-03-12,S002,Ibuprofen,42,473.56,400,False,East,Tuesday,3,1,2024
+2024-03-13,S003,Aspirin,167,318.75,108,True,West,Wednesday,3,1,2024
+2024-03-14,S004,Paracetamol,170,1342.93,223,False,North,Thursday,3,1,2024
+2024-03-15,S001,Magnesium,86,53.67,495,False,West,Friday,3,1,2024
+2024-03-16,S001,Vitamin C,125,397.83,277,False,North,Saturday,3,1,2024
+2024-03-17,S005,Aspirin,163,106.69,67,False,North,Sunday,3,1,2024
+2024-03-18,S003,Ibuprofen,159,375.43,68,False,West,Monday,3,1,2024
+2024-03-19,S003,Paracetamol,112,403.57,164,True,West,Tuesday,3,1,2024
+2024-03-20,S005,Omega-3,175,805.96,488,False,North,Wednesday,3,1,2024
+2024-03-21,S004,Ibuprofen,112,834.54,304,False,South,Thursday,3,1,2024
+2024-03-22,S003,Magnesium,99,1754.81,396,True,South,Friday,3,1,2024
+2024-03-23,S001,Ibuprofen,183,1044.71,161,False,West,Saturday,3,1,2024
+2024-03-24,S001,Paracetamol,131,1460.64,364,False,East,Sunday,3,1,2024
+2024-03-25,S002,Ibuprofen,152,253.07,341,False,South,Monday,3,1,2024
+2024-03-26,S003,Paracetamol,115,489.61,308,False,West,Tuesday,3,1,2024
+2024-03-27,S004,Aspirin,128,1420.74,378,True,South,Wednesday,3,1,2024
+2024-03-28,S005,Paracetamol,181,152.97,342,False,East,Thursday,3,1,2024
+2024-03-29,S005,Paracetamol,58,998.87,434,True,West,Friday,3,1,2024
+2024-03-30,S004,Vitamin C,113,1218.77,386,False,East,Saturday,3,1,2024
+2024-03-31,S002,Paracetamol,70,1224.18,41,True,West,Sunday,3,1,2024
+2024-04-01,S005,Paracetamol,132,94.72,353,False,East,Monday,4,2,2024
+2024-04-02,S003,Omega-3,143,678.11,415,False,South,Tuesday,4,2,2024
+2024-04-03,S002,Aspirin,18,1291.16,108,False,South,Wednesday,4,2,2024
+2024-04-04,S003,Magnesium,15,340.55,50,False,East,Thursday,4,2,2024
+2024-04-05,S001,Vitamin C,82,1406.06,249,False,East,Friday,4,2,2024
+2024-04-06,S002,Omega-3,112,1504.55,496,False,East,Saturday,4,2,2024
+2024-04-07,S005,Vitamin D,169,1964.84,340,False,West,Sunday,4,2,2024
+2024-04-08,S002,Aspirin,50,459.19,429,False,South,Monday,4,2,2024
+2024-04-09,S002,Aspirin,123,1659.0,382,False,West,Tuesday,4,2,2024
+2024-04-10,S002,Vitamin D,17,1064.58,491,False,South,Wednesday,4,2,2024
+2024-04-11,S002,Magnesium,81,778.25,20,False,North,Thursday,4,2,2024
+2024-04-12,S003,Paracetamol,187,288.63,299,False,West,Friday,4,2,2024
+2024-04-13,S001,Omega-3,101,1484.24,138,False,South,Saturday,4,2,2024
+2024-04-14,S004,Ibuprofen,71,509.92,358,False,South,Sunday,4,2,2024
+2024-04-15,S002,Vitamin C,93,774.27,323,True,West,Monday,4,2,2024
+2024-04-16,S005,Ibuprofen,71,171.96,498,True,West,Tuesday,4,2,2024
+2024-04-17,S002,Vitamin D,120,1612.67,384,False,South,Wednesday,4,2,2024
+2024-04-18,S005,Aspirin,136,1544.85,91,False,West,Thursday,4,2,2024
+2024-04-19,S003,Magnesium,16,1480.55,446,True,East,Friday,4,2,2024
+2024-04-20,S005,Aspirin,93,633.91,279,False,West,Saturday,4,2,2024
+2024-04-21,S004,Vitamin C,141,388.29,124,False,West,Sunday,4,2,2024
+2024-04-22,S001,Aspirin,143,1293.23,482,False,West,Monday,4,2,2024
+2024-04-23,S005,Aspirin,67,1017.52,396,False,South,Tuesday,4,2,2024
+2024-04-24,S005,Vitamin C,31,397.59,110,True,East,Wednesday,4,2,2024
+2024-04-25,S001,Omega-3,163,1387.53,353,False,North,Thursday,4,2,2024
+2024-04-26,S004,Omega-3,136,1982.7,138,False,North,Friday,4,2,2024
+2024-04-27,S002,Vitamin C,12,1507.08,483,False,East,Saturday,4,2,2024
+2024-04-28,S005,Magnesium,136,1492.97,434,False,East,Sunday,4,2,2024
+2024-04-29,S001,Vitamin D,50,1903.11,272,False,East,Monday,4,2,2024
+2024-04-30,S003,Aspirin,197,445.73,98,False,South,Tuesday,4,2,2024
+2024-05-01,S001,Magnesium,115,1152.82,251,False,North,Wednesday,5,2,2024
+2024-05-02,S003,Aspirin,23,1960.31,337,False,East,Thursday,5,2,2024
+2024-05-03,S004,Vitamin D,21,372.32,103,False,South,Friday,5,2,2024
+2024-05-04,S002,Omega-3,96,1415.49,213,False,North,Saturday,5,2,2024
+2024-05-05,S001,Magnesium,21,1192.33,248,True,West,Sunday,5,2,2024
+2024-05-06,S005,Paracetamol,150,1193.63,151,True,South,Monday,5,2,2024
+2024-05-07,S004,Paracetamol,34,1410.46,249,False,North,Tuesday,5,2,2024
+2024-05-08,S001,Paracetamol,54,1862.75,274,False,South,Wednesday,5,2,2024
+2024-05-09,S005,Omega-3,131,1576.03,164,False,North,Thursday,5,2,2024
+2024-05-10,S001,Omega-3,156,159.47,486,False,North,Friday,5,2,2024
+2024-05-11,S003,Vitamin D,64,1712.82,340,False,West,Saturday,5,2,2024
+2024-05-12,S001,Aspirin,109,489.81,7,False,South,Sunday,5,2,2024
+2024-05-13,S001,Vitamin D,182,784.98,283,False,East,Monday,5,2,2024
+2024-05-14,S001,Vitamin D,145,950.38,4,False,West,Tuesday,5,2,2024
+2024-05-15,S004,Omega-3,128,987.77,144,True,West,Wednesday,5,2,2024
+2024-05-16,S001,Paracetamol,62,898.6,100,False,North,Thursday,5,2,2024
+2024-05-17,S005,Ibuprofen,192,1877.84,163,False,East,Friday,5,2,2024
+2024-05-18,S003,Aspirin,41,1426.74,373,False,South,Saturday,5,2,2024
+2024-05-19,S003,Omega-3,60,1280.78,146,False,East,Sunday,5,2,2024
+2024-05-20,S001,Paracetamol,53,147.19,63,False,East,Monday,5,2,2024
+2024-05-21,S004,Magnesium,91,1812.63,90,False,East,Tuesday,5,2,2024
+2024-05-22,S004,Ibuprofen,155,1823.31,116,True,East,Wednesday,5,2,2024
+2024-05-23,S005,Ibuprofen,159,1571.42,353,False,East,Thursday,5,2,2024
+2024-05-24,S001,Omega-3,46,63.71,266,False,North,Friday,5,2,2024
+2024-05-25,S003,Vitamin C,105,161.7,309,True,North,Saturday,5,2,2024
+2024-05-26,S004,Aspirin,65,489.19,172,True,West,Sunday,5,2,2024
+2024-05-27,S001,Ibuprofen,114,306.13,46,False,North,Monday,5,2,2024
+2024-05-28,S004,Omega-3,68,827.73,139,True,West,Tuesday,5,2,2024
+2024-05-29,S004,Omega-3,140,1849.11,245,False,West,Wednesday,5,2,2024
+2024-05-30,S003,Paracetamol,165,970.52,148,False,South,Thursday,5,2,2024
+2024-05-31,S002,Magnesium,44,76.14,245,False,East,Friday,5,2,2024
+2024-06-01,S005,Vitamin C,198,601.35,394,False,North,Saturday,6,2,2024
+2024-06-02,S005,Aspirin,102,136.96,486,False,South,Sunday,6,2,2024
+2024-06-03,S003,Vitamin D,191,120.76,475,False,North,Monday,6,2,2024
+2024-06-04,S004,Magnesium,106,587.65,4,True,West,Tuesday,6,2,2024
+2024-06-05,S001,Magnesium,144,587.44,464,False,North,Wednesday,6,2,2024
+2024-06-06,S004,Paracetamol,85,1584.9,183,False,East,Thursday,6,2,2024
+2024-06-07,S003,Ibuprofen,58,1950.93,19,False,West,Friday,6,2,2024
+2024-06-08,S005,Ibuprofen,103,773.85,424,False,West,Saturday,6,2,2024
+2024-06-09,S004,Paracetamol,168,886.33,45,False,South,Sunday,6,2,2024
+2024-06-10,S005,Omega-3,195,1697.34,11,True,East,Monday,6,2,2024
+2024-06-11,S001,Ibuprofen,198,572.87,69,True,West,Tuesday,6,2,2024
+2024-06-12,S005,Vitamin C,33,354.94,16,False,East,Wednesday,6,2,2024
+2024-06-13,S005,Aspirin,157,1713.52,370,False,North,Thursday,6,2,2024
+2024-06-14,S002,Magnesium,46,140.68,146,True,East,Friday,6,2,2024
+2024-06-15,S002,Magnesium,13,1258.41,153,False,West,Saturday,6,2,2024
+2024-06-16,S002,Vitamin C,117,1145.89,303,False,South,Sunday,6,2,2024
+2024-06-17,S005,Ibuprofen,135,724.54,107,False,West,Monday,6,2,2024
+2024-06-18,S003,Magnesium,29,664.62,235,False,East,Tuesday,6,2,2024
+2024-06-19,S005,Vitamin D,197,1555.12,307,True,East,Wednesday,6,2,2024
+2024-06-20,S003,Aspirin,161,218.53,351,False,West,Thursday,6,2,2024
+2024-06-21,S003,Aspirin,59,511.73,69,False,East,Friday,6,2,2024
+2024-06-22,S002,Magnesium,186,1478.28,182,False,North,Saturday,6,2,2024
+2024-06-23,S004,Paracetamol,188,1119.23,249,False,West,Sunday,6,2,2024
+2024-06-24,S001,Magnesium,105,299.58,227,True,South,Monday,6,2,2024
+2024-06-25,S002,Paracetamol,114,1770.16,101,False,West,Tuesday,6,2,2024
+2024-06-26,S002,Magnesium,173,817.22,74,False,North,Wednesday,6,2,2024
+2024-06-27,S004,Vitamin D,126,1664.34,416,False,North,Thursday,6,2,2024
+2024-06-28,S001,Omega-3,107,1586.04,445,False,North,Friday,6,2,2024
+2024-06-29,S005,Aspirin,75,1267.63,215,False,North,Saturday,6,2,2024
+2024-06-30,S005,Magnesium,88,1014.24,406,False,North,Sunday,6,2,2024
+2024-07-01,S002,Vitamin D,171,1960.12,398,False,South,Monday,7,3,2024
+2024-07-02,S001,Paracetamol,173,332.68,410,False,East,Tuesday,7,3,2024
+2024-07-03,S002,Paracetamol,15,1464.05,202,False,North,Wednesday,7,3,2024
+2024-07-04,S003,Aspirin,48,422.82,191,False,North,Thursday,7,3,2024
+2024-07-05,S002,Vitamin C,179,709.61,248,False,West,Friday,7,3,2024
+2024-07-06,S002,Magnesium,124,651.96,498,True,South,Saturday,7,3,2024
+2024-07-07,S005,Ibuprofen,195,1896.72,241,False,South,Sunday,7,3,2024
+2024-07-08,S005,Paracetamol,134,1936.34,464,False,East,Monday,7,3,2024
+2024-07-09,S005,Omega-3,21,406.88,178,False,South,Tuesday,7,3,2024
+2024-07-10,S003,Omega-3,140,92.97,436,False,West,Wednesday,7,3,2024
+2024-07-11,S005,Paracetamol,27,1454.02,461,False,West,Thursday,7,3,2024
+2024-07-12,S001,Vitamin C,49,865.08,218,False,East,Friday,7,3,2024
+2024-07-13,S004,Vitamin C,30,223.24,81,False,West,Saturday,7,3,2024
+2024-07-14,S001,Vitamin D,152,1383.32,91,False,North,Sunday,7,3,2024
+2024-07-15,S001,Omega-3,108,1112.96,434,False,North,Monday,7,3,2024
+2024-07-16,S005,Vitamin D,35,1962.01,174,False,West,Tuesday,7,3,2024
+2024-07-17,S004,Omega-3,17,493.45,238,False,East,Wednesday,7,3,2024
+2024-07-18,S004,Magnesium,109,837.76,259,False,South,Thursday,7,3,2024
+2024-07-19,S004,Magnesium,96,1107.96,390,False,East,Friday,7,3,2024
+2024-07-20,S003,Ibuprofen,51,1593.81,364,False,South,Saturday,7,3,2024
+2024-07-21,S005,Magnesium,181,1120.24,162,False,West,Sunday,7,3,2024
+2024-07-22,S004,Ibuprofen,23,1245.16,47,False,West,Monday,7,3,2024
+2024-07-23,S003,Magnesium,87,490.99,328,False,North,Tuesday,7,3,2024
+2024-07-24,S002,Aspirin,11,1701.49,327,True,South,Wednesday,7,3,2024
+2024-07-25,S002,Magnesium,128,885.83,115,False,East,Thursday,7,3,2024
+2024-07-26,S003,Vitamin D,46,324.87,428,False,West,Friday,7,3,2024
+2024-07-27,S003,Paracetamol,78,1345.17,336,False,East,Saturday,7,3,2024
+2024-07-28,S005,Vitamin D,175,471.38,336,True,North,Sunday,7,3,2024
+2024-07-29,S005,Paracetamol,50,240.25,368,False,South,Monday,7,3,2024
+2024-07-30,S002,Vitamin C,71,1730.87,224,False,South,Tuesday,7,3,2024
+2024-07-31,S004,Vitamin D,69,947.32,351,True,West,Wednesday,7,3,2024
+2024-08-01,S002,Vitamin C,134,1511.1,327,False,South,Thursday,8,3,2024
+2024-08-02,S004,Ibuprofen,120,616.65,146,False,West,Friday,8,3,2024
+2024-08-03,S004,Ibuprofen,23,1584.59,62,True,North,Saturday,8,3,2024
+2024-08-04,S005,Aspirin,93,268.28,293,False,South,Sunday,8,3,2024
+2024-08-05,S001,Magnesium,139,744.15,322,False,West,Monday,8,3,2024
+2024-08-06,S001,Vitamin D,79,1957.22,442,False,East,Tuesday,8,3,2024
+2024-08-07,S003,Vitamin C,154,1598.28,324,False,West,Wednesday,8,3,2024
+2024-08-08,S005,Paracetamol,132,1019.65,12,True,South,Thursday,8,3,2024
+2024-08-09,S004,Ibuprofen,98,712.57,430,True,North,Friday,8,3,2024
+2024-08-10,S001,Magnesium,37,1750.66,493,True,South,Saturday,8,3,2024
+2024-08-11,S004,Ibuprofen,75,1112.45,188,True,South,Sunday,8,3,2024
+2024-08-12,S001,Paracetamol,172,1528.93,286,False,West,Monday,8,3,2024
+2024-08-13,S001,Magnesium,14,1520.51,207,False,East,Tuesday,8,3,2024
+2024-08-14,S001,Magnesium,177,84.99,113,False,South,Wednesday,8,3,2024
+2024-08-15,S005,Vitamin C,193,296.19,479,False,East,Thursday,8,3,2024
+2024-08-16,S002,Vitamin C,173,1336.28,21,True,West,Friday,8,3,2024
+2024-08-17,S004,Vitamin D,54,365.16,348,False,East,Saturday,8,3,2024
+2024-08-18,S005,Vitamin D,160,548.21,213,False,West,Sunday,8,3,2024
+2024-08-19,S005,Omega-3,56,1895.94,170,False,North,Monday,8,3,2024
+2024-08-20,S005,Omega-3,40,1142.36,322,False,East,Tuesday,8,3,2024
+2024-08-21,S005,Aspirin,148,1513.92,53,False,East,Wednesday,8,3,2024
+2024-08-22,S005,Ibuprofen,19,1138.06,393,False,North,Thursday,8,3,2024
+2024-08-23,S003,Vitamin D,127,1127.4,297,False,East,Friday,8,3,2024
+2024-08-24,S004,Vitamin C,23,233.6,319,False,North,Saturday,8,3,2024
+2024-08-25,S005,Paracetamol,89,720.14,125,False,South,Sunday,8,3,2024
+2024-08-26,S004,Vitamin C,102,600.74,276,False,West,Monday,8,3,2024
+2024-08-27,S003,Ibuprofen,19,811.92,463,False,North,Tuesday,8,3,2024
+2024-08-28,S003,Omega-3,85,1606.77,203,False,East,Wednesday,8,3,2024
+2024-08-29,S004,Vitamin C,103,775.27,193,False,North,Thursday,8,3,2024
+2024-08-30,S001,Aspirin,114,930.81,168,False,East,Friday,8,3,2024
+2024-08-31,S002,Ibuprofen,10,824.89,151,False,South,Saturday,8,3,2024
+2024-09-01,S001,Omega-3,142,232.15,34,False,North,Sunday,9,3,2024
+2024-09-02,S001,Paracetamol,29,910.09,183,False,South,Monday,9,3,2024
+2024-09-03,S001,Omega-3,17,431.44,285,True,West,Tuesday,9,3,2024
+2024-09-04,S005,Magnesium,180,414.11,56,False,East,Wednesday,9,3,2024
+2024-09-05,S003,Aspirin,10,233.37,221,False,East,Thursday,9,3,2024
+2024-09-06,S001,Ibuprofen,66,745.51,302,False,South,Friday,9,3,2024
+2024-09-07,S003,Paracetamol,73,1527.09,162,True,West,Saturday,9,3,2024
+2024-09-08,S004,Aspirin,127,589.06,18,False,North,Sunday,9,3,2024
+2024-09-09,S002,Omega-3,37,659.08,369,False,North,Monday,9,3,2024
+2024-09-10,S004,Aspirin,130,1303.22,263,False,East,Tuesday,9,3,2024
+2024-09-11,S004,Ibuprofen,116,431.89,281,False,South,Wednesday,9,3,2024
+2024-09-12,S005,Vitamin D,174,1799.07,112,False,South,Thursday,9,3,2024
+2024-09-13,S002,Aspirin,184,1064.37,487,False,North,Friday,9,3,2024
+2024-09-14,S004,Magnesium,174,922.83,326,False,West,Saturday,9,3,2024
+2024-09-15,S004,Aspirin,58,1137.75,29,True,West,Sunday,9,3,2024
+2024-09-16,S002,Omega-3,129,373.77,134,False,North,Monday,9,3,2024
+2024-09-17,S002,Omega-3,53,1246.27,66,True,North,Tuesday,9,3,2024
+2024-09-18,S004,Paracetamol,65,758.05,64,False,South,Wednesday,9,3,2024
+2024-09-19,S002,Omega-3,165,1799.51,291,False,West,Thursday,9,3,2024
+2024-09-20,S004,Vitamin C,120,379.27,24,True,North,Friday,9,3,2024
+2024-09-21,S004,Ibuprofen,143,1038.75,36,True,North,Saturday,9,3,2024
+2024-09-22,S005,Ibuprofen,117,1216.32,0,True,East,Sunday,9,3,2024
+2024-09-23,S001,Vitamin D,198,115.1,398,False,North,Monday,9,3,2024
+2024-09-24,S004,Vitamin D,157,759.2,36,False,North,Tuesday,9,3,2024
+2024-09-25,S003,Ibuprofen,123,1478.64,140,False,West,Wednesday,9,3,2024
+2024-09-26,S001,Magnesium,87,1649.74,231,True,South,Thursday,9,3,2024
+2024-09-27,S001,Vitamin D,139,660.67,135,True,West,Friday,9,3,2024
+2024-09-28,S001,Paracetamol,46,1607.26,388,True,South,Saturday,9,3,2024
+2024-09-29,S005,Omega-3,29,1937.12,187,True,East,Sunday,9,3,2024
+2024-09-30,S004,Ibuprofen,35,1720.9,127,False,North,Monday,9,3,2024
+2024-10-01,S005,Vitamin D,38,279.41,200,False,East,Tuesday,10,4,2024
+2024-10-02,S004,Ibuprofen,10,1492.47,126,False,South,Wednesday,10,4,2024
+2024-10-03,S005,Vitamin C,128,673.35,256,True,West,Thursday,10,4,2024
+2024-10-04,S005,Aspirin,44,1977.41,163,False,West,Friday,10,4,2024
+2024-10-05,S003,Omega-3,68,996.45,34,False,East,Saturday,10,4,2024
+2024-10-06,S005,Ibuprofen,78,288.75,193,False,South,Sunday,10,4,2024
+2024-10-07,S002,Aspirin,170,1464.11,190,False,East,Monday,10,4,2024
+2024-10-08,S003,Vitamin D,188,679.87,103,True,East,Tuesday,10,4,2024
+2024-10-09,S005,Aspirin,21,1994.3,22,False,North,Wednesday,10,4,2024
+2024-10-10,S001,Omega-3,29,1960.58,264,False,East,Thursday,10,4,2024
+2024-10-11,S002,Ibuprofen,190,1329.46,289,False,North,Friday,10,4,2024
+2024-10-12,S002,Vitamin C,52,303.16,429,False,North,Saturday,10,4,2024
+2024-10-13,S002,Magnesium,135,1389.38,461,False,West,Sunday,10,4,2024
+2024-10-14,S003,Vitamin D,59,231.41,383,False,North,Monday,10,4,2024
+2024-10-15,S005,Ibuprofen,38,107.26,259,False,North,Tuesday,10,4,2024
+2024-10-16,S005,Omega-3,194,1654.77,413,False,West,Wednesday,10,4,2024
+2024-10-17,S001,Vitamin D,48,459.02,478,False,East,Thursday,10,4,2024
+2024-10-18,S001,Paracetamol,193,789.1,357,False,South,Friday,10,4,2024
+2024-10-19,S002,Aspirin,180,1948.24,74,False,South,Saturday,10,4,2024
+2024-10-20,S001,Magnesium,187,706.84,354,True,South,Sunday,10,4,2024
+2024-10-21,S003,Omega-3,160,628.16,71,False,East,Monday,10,4,2024
+2024-10-22,S005,Paracetamol,181,1840.51,258,False,North,Tuesday,10,4,2024
+2024-10-23,S002,Ibuprofen,47,265.96,397,False,South,Wednesday,10,4,2024
+2024-10-24,S001,Vitamin C,93,1531.19,187,False,East,Thursday,10,4,2024
+2024-10-25,S003,Vitamin D,160,1976.73,460,False,North,Friday,10,4,2024
+2024-10-26,S003,Aspirin,137,1807.53,172,True,West,Saturday,10,4,2024
+2024-10-27,S001,Vitamin D,135,1320.75,479,False,South,Sunday,10,4,2024
+2024-10-28,S005,Magnesium,54,662.42,289,True,North,Monday,10,4,2024
+2024-10-29,S001,Ibuprofen,61,545.93,44,False,South,Tuesday,10,4,2024
+2024-10-30,S002,Vitamin D,89,1647.55,60,True,South,Wednesday,10,4,2024
+2024-10-31,S001,Aspirin,187,1765.65,82,False,South,Thursday,10,4,2024
+2024-11-01,S003,Ibuprofen,133,1074.6,122,False,North,Friday,11,4,2024
+2024-11-02,S001,Vitamin D,128,526.46,357,False,East,Saturday,11,4,2024
+2024-11-03,S005,Vitamin C,17,270.24,15,False,North,Sunday,11,4,2024
+2024-11-04,S004,Omega-3,94,220.0,65,False,South,Monday,11,4,2024
+2024-11-05,S001,Ibuprofen,138,1452.2,423,False,North,Tuesday,11,4,2024
+2024-11-06,S005,Omega-3,17,869.23,144,False,West,Wednesday,11,4,2024
+2024-11-07,S005,Ibuprofen,166,1815.45,374,True,East,Thursday,11,4,2024
+2024-11-08,S003,Vitamin C,105,1492.36,161,False,North,Friday,11,4,2024
+2024-11-09,S005,Omega-3,111,422.96,233,True,West,Saturday,11,4,2024
+2024-11-10,S005,Paracetamol,14,1246.87,379,False,East,Sunday,11,4,2024
+2024-11-11,S005,Aspirin,95,899.24,143,False,West,Monday,11,4,2024
+2024-11-12,S005,Paracetamol,184,1175.64,357,False,East,Tuesday,11,4,2024
+2024-11-13,S002,Vitamin D,43,1489.23,187,False,North,Wednesday,11,4,2024
+2024-11-14,S002,Vitamin C,64,1622.08,321,False,West,Thursday,11,4,2024
+2024-11-15,S003,Paracetamol,128,1695.29,449,True,South,Friday,11,4,2024
+2024-11-16,S001,Ibuprofen,180,545.25,473,False,West,Saturday,11,4,2024
+2024-11-17,S005,Vitamin D,167,110.68,12,False,East,Sunday,11,4,2024
+2024-11-18,S001,Vitamin D,123,1491.62,183,False,North,Monday,11,4,2024
+2024-11-19,S001,Paracetamol,154,257.37,110,False,East,Tuesday,11,4,2024
+2024-11-20,S003,Paracetamol,35,664.09,414,False,West,Wednesday,11,4,2024
+2024-11-21,S005,Vitamin C,145,57.44,289,False,West,Thursday,11,4,2024
+2024-11-22,S005,Aspirin,56,1379.26,294,False,South,Friday,11,4,2024
+2024-11-23,S004,Paracetamol,122,375.91,450,False,North,Saturday,11,4,2024
+2024-11-24,S001,Magnesium,85,1327.8,391,False,North,Sunday,11,4,2024
+2024-11-25,S001,Paracetamol,81,1983.9,214,True,West,Monday,11,4,2024
+2024-11-26,S002,Omega-3,98,191.71,461,False,North,Tuesday,11,4,2024
+2024-11-27,S004,Ibuprofen,55,200.3,119,False,South,Wednesday,11,4,2024
+2024-11-28,S002,Magnesium,42,713.74,381,False,East,Thursday,11,4,2024
+2024-11-29,S002,Magnesium,10,1739.45,54,True,North,Friday,11,4,2024
+2024-11-30,S002,Omega-3,156,470.28,26,False,West,Saturday,11,4,2024
+2024-12-01,S003,Omega-3,40,752.74,117,False,East,Sunday,12,4,2024
+2024-12-02,S003,Vitamin D,151,183.59,220,False,East,Monday,12,4,2024
+2024-12-03,S002,Aspirin,62,1538.15,230,False,South,Tuesday,12,4,2024
+2024-12-04,S004,Ibuprofen,57,846.2,52,True,West,Wednesday,12,4,2024
+2024-12-05,S001,Vitamin C,78,1530.54,294,False,North,Thursday,12,4,2024
+2024-12-06,S004,Magnesium,114,1812.04,320,False,West,Friday,12,4,2024
+2024-12-07,S005,Vitamin C,99,503.89,400,False,East,Saturday,12,4,2024
+2024-12-08,S003,Paracetamol,199,1624.42,232,False,West,Sunday,12,4,2024
+2024-12-09,S001,Paracetamol,72,165.23,157,True,North,Monday,12,4,2024
+2024-12-10,S001,Vitamin C,82,1802.75,436,False,North,Tuesday,12,4,2024
+2024-12-11,S005,Paracetamol,170,1319.0,268,True,South,Wednesday,12,4,2024
+2024-12-12,S005,Aspirin,178,1754.74,20,False,North,Thursday,12,4,2024
+2024-12-13,S002,Omega-3,98,50.37,402,False,North,Friday,12,4,2024
+2024-12-14,S003,Paracetamol,185,379.71,52,False,West,Saturday,12,4,2024
+2024-12-15,S003,Vitamin D,22,810.03,274,False,West,Sunday,12,4,2024
+2024-12-16,S004,Paracetamol,82,790.03,312,False,East,Monday,12,4,2024
+2024-12-17,S002,Ibuprofen,86,492.12,280,False,South,Tuesday,12,4,2024
+2024-12-18,S002,Aspirin,168,794.14,213,False,West,Wednesday,12,4,2024
+2024-12-19,S002,Ibuprofen,77,301.25,30,False,North,Thursday,12,4,2024
+2024-12-20,S002,Ibuprofen,107,854.88,336,False,East,Friday,12,4,2024
+2024-12-21,S003,Vitamin D,134,1614.59,182,True,West,Saturday,12,4,2024
+2024-12-22,S003,Aspirin,111,984.19,22,False,South,Sunday,12,4,2024
+2024-12-23,S002,Aspirin,141,85.1,31,False,South,Monday,12,4,2024
+2024-12-24,S004,Aspirin,111,871.82,445,False,East,Tuesday,12,4,2024
+2024-12-25,S001,Aspirin,28,102.99,73,False,East,Wednesday,12,4,2024
+2024-12-26,S001,Aspirin,91,1934.17,9,False,East,Thursday,12,4,2024
+2024-12-27,S004,Vitamin D,150,298.54,483,True,East,Friday,12,4,2024
+2024-12-28,S002,Paracetamol,32,1429.99,455,False,East,Saturday,12,4,2024
+2024-12-29,S003,Ibuprofen,92,1946.91,53,False,North,Sunday,12,4,2024
+2024-12-30,S001,Aspirin,118,1660.78,51,False,North,Monday,12,4,2024
+2024-12-31,S005,Magnesium,84,1413.66,147,True,West,Tuesday,12,4,2024
