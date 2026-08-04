@@ -7,215 +7,290 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Data Analyst Portfolio</h1>
-            <p class="subtitle">11 projects covering EDA, SQL, ML, NLP, real-time pipelines, and interactive dashboards</p>
-            <div class="badges">
-                <img src="https://img.shields.io/badge/Python-3.12-blue" alt="Python">
-                <img src="https://img.shields.io/badge/SQL-SQLite-orange" alt="SQLite">
-                <img src="https://img.shields.io/badge/ML-Scikit--learn-red" alt="Scikit-learn">
-                <img src="https://img.shields.io/badge/Dashboard-Streamlit-green" alt="Streamlit">
+
+<nav id="navbar">
+    <div class="container">
+        <div class="logo">DA Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<section id="hero">
+    <div class="container">
+        <div class="hero-content">
+            <p class="hero-greeting">Hi, I'm</p>
+            <h1 class="hero-name">IVFSS</h1>
+            <p class="hero-subtitle">Data Analyst — Python, SQL, ML, NLP & Real-time Pipelines</p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number" data-count="11">0</span>
+                    <span class="stat-label">Projects</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-count="7">0</span>
+                    <span class="stat-label">Skills</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-count="5000">0</span>
+                    <span class="stat-label">Reviews Analyzed</span>
+                </div>
             </div>
         </div>
-    </header>
+    </div>
+    <div class="scroll-indicator">
+        <span>SCROLL</span>
+        <div class="scroll-line"></div>
+    </div>
+</section>
 
-    <section class="about">
-        <div class="container">
-            <h2>About</h2>
-            <p>Portfolio of data analysis projects following the <a href="https://roadmap.sh/data-analyst">roadmap.sh data analyst roadmap</a>. Each project includes data processing, visualization, and actionable insights. Skills demonstrated: Python, SQL, machine learning, NLP, API integration, data pipelines, and interactive dashboards.</p>
+<section id="skills">
+    <div class="container">
+        <span class="section-label">What I do</span>
+        <h2 class="section-title">Skills & Technologies</h2>
+        <div class="skills-grid">
+
+            <div class="skill-category">
+                <h3>Languages & Tools</h3>
+                <ul>
+                    <li>Python (Pandas, NumPy, Scikit-learn)</li>
+                    <li>SQL (SQLite, Joins, Aggregations)</li>
+                    <li>Git & GitHub</li>
+                    <li>Docker</li>
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h3>Visualization</h3>
+                <ul>
+                    <li>Matplotlib, Seaborn</li>
+                    <li>Plotly</li>
+                    <li>Streamlit Dashboards</li>
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h3>Machine Learning</h3>
+                <ul>
+                    <li>Classification (Logistic Regression, Random Forest, SVM)</li>
+                    <li>NLP & Sentiment Analysis</li>
+                    <li>Feature Engineering</li>
+                    <li>Model Evaluation & Cross-validation</li>
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h3>Data Engineering</h3>
+                <ul>
+                    <li>API Integration</li>
+                    <li>ETL Pipelines</li>
+                    <li>SQLite Database Design</li>
+                    <li>Task Scheduling</li>
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h3>Data Processing</h3>
+                <ul>
+                    <li>Data Cleaning & Imputation</li>
+                    <li>EDA & Statistical Analysis</li>
+                    <li>Time Series Analysis</li>
+                    <li>Report Generation</li>
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h3>Business Intelligence</h3>
+                <ul>
+                    <li>KPI Dashboards</li>
+                    <li>Competitor Analysis</li>
+                    <li>A/B Testing</li>
+                    <li>Campaign Effectiveness Tracking</li>
+                </ul>
+            </div>
+
         </div>
-    </section>
+    </div>
+</section>
 
-    <section class="projects">
-        <div class="container">
-            <h2>Projects</h2>
+<section id="projects">
+    <div class="container">
+        <span class="section-label">Portfolio</span>
+        <h2 class="section-title">11 Projects Built</h2>
+        <div class="projects-grid">
 
             <div class="project-card">
-                <h3>1. Titanic Survival Analysis</h3>
-                <p class="category">Exploratory Data Analysis</p>
-                <p>EDA on 891 Titanic passengers to identify survival factors. Key finding: women in 1st class had 97% survival rate vs 13% for men in 3rd class.</p>
-                <div class="tech">
+                <span class="project-number">01</span>
+                <p class="project-category">Exploratory Data Analysis</p>
+                <h3>Titanic Survival Analysis</h3>
+                <p>EDA on 891 passengers to identify survival factors. Women in 1st class had 63% survival rate vs 13% for men in 3rd class.</p>
+                <div class="project-tags">
                     <span class="tag">Pandas</span>
                     <span class="tag">Matplotlib</span>
                     <span class="tag">Seaborn</span>
                 </div>
-                <a href="https://github.com/YOUR_USERNAME/data-analyst-portfolio/blob/main/src/titanic_eda.py">View Code →</a>
+                <a href="https://github.com/IVFSS/data-analyst-portfolio/blob/main/src/titanic_eda.py" class="project-link">View Code →</a>
             </div>
 
             <div class="project-card">
-                <h3>2. Iris Dataset Classification</h3>
-                <p class="category">Exploratory Data Analysis</p>
-                <p>Complete EDA on the classic Iris dataset with parallel coordinates plot and correlation analysis.</p>
-                <div class="tech">
+                <span class="project-number">02</span>
+                <p class="project-category">Exploratory Data Analysis</p>
+                <h3>Iris Dataset Classification</h3>
+                <p>Complete EDA on the classic Iris dataset with parallel coordinates plot and species-level correlation analysis.</p>
+                <div class="project-tags">
                     <span class="tag">Pandas</span>
                     <span class="tag">Seaborn</span>
                     <span class="tag">sklearn</span>
                 </div>
-                <a href="https://github.com/YOUR_USERNAME/data-analyst-portfolio/blob/main/src/iris_eda.py">View Code →</a>
+                <a href="https://github.com/IVFSS/data-analyst-portfolio/blob/main/src/iris_eda.py" class="project-link">View Code →</a>
             </div>
 
             <div class="project-card">
-                <h3>3. Stock Price Time Series</h3>
-                <p class="category">Time Series Analysis</p>
-                <p>Downloaded 1 year of AAPL data via yfinance. Moving averages, daily returns, monthly trends, volatility analysis.</p>
-                <div class="tech">
+                <span class="project-number">03</span>
+                <p class="project-category">Time Series Analysis</p>
+                <h3>Stock Price Time Series</h3>
+                <p>Downloaded 1 year of AAPL data via yfinance. Moving averages, daily returns, monthly trends, and volatility analysis.</p>
+                <div class="project-tags">
                     <span class="tag">yfinance</span>
                     <span class="tag">Pandas</span>
                     <span class="tag">Time Series</span>
                 </div>
-                <a href="https://github.com/YOUR_USERNAME/data-analyst-portfolio/blob/main/src/stock_price_analysis.py">View Code →</a>
+                <a href="https://github.com/IVFSS/data-analyst-portfolio/blob/main/src/stock_price_analysis.py" class="project-link">View Code →</a>
             </div>
 
             <div class="project-card">
-                <h3>4. SQL + Python Analysis</h3>
-                <p class="category">SQL</p>
-                <p>Built SQLite database with products, customers, orders. 5 business queries: revenue by product, customer LTV, category performance, monthly trends, geographic breakdown.</p>
-                <div class="tech">
+                <span class="project-number">04</span>
+                <p class="project-category">SQL</p>
+                <h3>SQL + Python Sales Analysis</h3>
+                <p>Built SQLite database with products, customers, orders. 5 business queries: revenue, customer LTV, category performance, geographic breakdown.</p>
+                <div class="project-tags">
                     <span class="tag">SQLite</span>
                     <span class="tag">SQL</span>
                     <span class="tag">Joins</span>
-                    <span class="tag">Aggregations</span>
                 </div>
-                <a href="https://github.com/YOUR_USERNAME/data-analyst-portfolio/blob/main/src/sql_python_analysis.py">View Code →</a>
+                <a href="https://github.com/IVFSS/data-analyst-portfolio/blob/main/src/sql_python_analysis.py" class="project-link">View Code →</a>
             </div>
 
             <div class="project-card">
-                <h3>5. Netflix Data Cleaning</h3>
-                <p class="category">Data Cleaning</p>
-                <p>Cleaned 7,787 Netflix records. Handled 30% missing directors, converted dates, extracted features. Reduced missing values from 6 columns to 1.</p>
-                <div class="tech">
+                <span class="project-number">05</span>
+                <p class="project-category">Data Cleaning</p>
+                <h3>Netflix Data Cleaning</h3>
+                <p>Cleaned 7,787 Netflix records. Handled 30% missing directors, converted dates, extracted features. Reduced nulls across 6 columns.</p>
+                <div class="project-tags">
                     <span class="tag">Pandas</span>
                     <span class="tag">Data Cleaning</span>
                     <span class="tag">Feature Engineering</span>
                 </div>
-                <a href="https://github.com/YOUR_USERNAME/data-analyst-portfolio/blob/main/src/netflix_cleaning.py">View Code →</a>
+                <a href="https://github.com/IVFSS/data-analyst-portfolio/blob/main/src/netflix_cleaning.py" class="project-link">View Code →</a>
             </div>
 
             <div class="project-card">
-                <h3>6. Pharmaceutical Sales Analysis</h3>
-                <p class="category">Business Analytics</p>
-                <p>Revenue analysis across products, regions, stores. Promotion impact, day-of-week patterns, monthly trends. <strong>$734K total revenue</strong> analyzed.</p>
-                <div class="tech">
+                <span class="project-number">06</span>
+                <p class="project-category">Business Analytics</p>
+                <h3>Pharmaceutical Sales Analysis</h3>
+                <p>Revenue analysis across products, regions, stores. Promotion impact, day-of-week patterns, monthly trends on $734K total revenue.</p>
+                <div class="project-tags">
                     <span class="tag">Business Metrics</span>
                     <span class="tag">KPIs</span>
                     <span class="tag">Cohort Analysis</span>
                 </div>
-                <a href="https://github.com/YOUR_USERNAME/data-analyst-portfolio/blob/main/src/pharma_sales_analysis.py">View Code →</a>
+                <a href="https://github.com/IVFSS/data-analyst-portfolio/blob/main/src/pharma_sales_analysis.py" class="project-link">View Code →</a>
             </div>
 
             <div class="project-card highlight">
-                <h3>7. Pharma Sales Dashboard</h3>
-                <p class="category">Interactive Dashboard</p>
-                <p>Live Streamlit dashboard with filters for product, region, store, date range. 4 tabs: Trends, Products, Regions, Comparisons.</p>
-                <div class="tech">
-                    <span class="tag">Streamlit</span>
-                    <span class="tag">Plotly</span>
-                    <span class="tag">Interactive</span>
+                <span class="project-number">07</span>
+                <p class="project-category">Interactive Dashboard</p>
+                <h3>Pharma Sales Dashboard</h3>
+                <p>Live Streamlit dashboard with product, region, store, date filters. 4 tabs: Trends, Products, Regions, Comparisons.</p>
+                <div class="project-tags">
+                    <span class="tag tag-highlight">Streamlit</span>
+                    <span class="tag tag-highlight">Plotly</span>
                 </div>
-                <a href="https://YOUR-STREAMLIT-APP.streamlit.app">Launch Live App →</a>
+                <a href="https://IVFSS-data-portfolio.streamlit.app" class="project-link" target="_blank">Launch Live App →</a>
             </div>
 
             <div class="project-card">
-                <h3>8. Titanic Survival Prediction</h3>
-                <p class="category">Machine Learning</p>
-                <p>Feature engineering (title extraction, family size), 3 models compared. <strong>83.8% accuracy</strong> with Random Forest. Feature importance analysis.</p>
-                <div class="tech">
+                <span class="project-number">08</span>
+                <p class="project-category">Machine Learning</p>
+                <h3>Titanic Survival Prediction</h3>
+                <p>Feature engineering (title extraction, family size), 3 models compared. 83.8% accuracy with Random Forest. Feature importance analysis.</p>
+                <div class="project-tags">
                     <span class="tag">Scikit-learn</span>
                     <span class="tag">Logistic Regression</span>
                     <span class="tag">Random Forest</span>
-                    <span class="tag">Cross-validation</span>
                 </div>
-                <a href="https://github.com/YOUR_USERNAME/data-analyst-portfolio/blob/main/src/titanic_ml_model.py">View Code →</a>
+                <a href="https://github.com/IVFSS/data-analyst-portfolio/blob/main/src/titanic_ml_model.py" class="project-link">View Code →</a>
             </div>
 
             <div class="project-card highlight">
-                <h3>9. GitHub Trends Pipeline</h3>
-                <p class="category">Real-time Data Engineering</p>
-                <p>Production-grade ETL pipeline. Fetches trending repos across 5 languages, stores in SQLite, auto-refreshes every 30 min. Logs all runs.</p>
-                <div class="tech">
-                    <span class="tag">API Integration</span>
-                    <span class="tag">SQLite</span>
-                    <span class="tag">Scheduler</span>
-                    <span class="tag">Docker</span>
+                <span class="project-number">09</span>
+                <p class="project-category">Real-time Data Engineering</p>
+                <h3>GitHub Trends Pipeline</h3>
+                <p>Production ETL pipeline. Fetches trending repos across 5 languages, stores in SQLite, auto-refreshes, logs all runs.</p>
+                <div class="project-tags">
+                    <span class="tag tag-highlight">API Integration</span>
+                    <span class="tag tag-highlight">SQLite</span>
+                    <span class="tag tag-highlight">Scheduler</span>
                 </div>
-                <a href="https://github.com/YOUR_USERNAME/data-analyst-portfolio/blob/main/src/pipeline.py">View Code →</a>
+                <a href="https://github.com/IVFSS/data-analyst-portfolio/blob/main/src/pipeline.py" class="project-link">View Code →</a>
             </div>
 
             <div class="project-card">
-                <h3>10. Amazon Sentiment (Rule-based)</h3>
-                <p class="category">Natural Language Processing</p>
-                <p>5,000 Amazon reviews analyzed with custom lexicons. Word frequency, text features. Baseline: 54.9% accuracy.</p>
-                <div class="tech">
+                <span class="project-number">10</span>
+                <p class="project-category">Natural Language Processing</p>
+                <h3>Amazon Sentiment (Rule-based)</h3>
+                <p>5,000 Amazon reviews with custom lexicons. Word frequency, text features. Baseline accuracy: 54.9%.</p>
+                <div class="project-tags">
                     <span class="tag">NLP</span>
                     <span class="tag">Lexicon Analysis</span>
                     <span class="tag">Text Mining</span>
                 </div>
-                <a href="https://github.com/YOUR_USERNAME/data-analyst-portfolio/blob/main/src/amazon_sentiment_analysis.py">View Code →</a>
+                <a href="https://github.com/IVFSS/data-analyst-portfolio/blob/main/src/amazon_sentiment_analysis.py" class="project-link">View Code →</a>
             </div>
 
             <div class="project-card highlight">
-                <h3>11. Amazon Sentiment (ML Classifier)</h3>
-                <p class="category">Machine Learning / NLP</p>
-                <p>TF-IDF + 4 ML models. <strong>83.8% accuracy</strong> with Logistic Regression. Identified "highly recommend", "waste money" as key features.</p>
-                <div class="tech">
-                    <span class="tag">TF-IDF</span>
-                    <span class="tag">Logistic Regression</span>
-                    <span class="tag">Linear SVC</span>
-                    <span class="tag">Naive Bayes</span>
+                <span class="project-number">11</span>
+                <p class="project-category">Machine Learning / NLP</p>
+                <h3>Amazon Sentiment ML Classifier</h3>
+                <p>TF-IDF + 4 ML models. 83.8% accuracy with Logistic Regression. Identified "highly recommend" and "waste money" as key features.</p>
+                <div class="project-tags">
+                    <span class="tag tag-highlight">TF-IDF</span>
+                    <span class="tag tag-highlight">Logistic Regression</span>
+                    <span class="tag tag-highlight">Linear SVC</span>
                 </div>
-                <a href="https://github.com/YOUR_USERNAME/data-analyst-portfolio/blob/main/src/amazon_ml_classifier.py">View Code →</a>
+                <a href="https://github.com/IVFSS/data-analyst-portfolio/blob/main/src/amazon_ml_classifier.py" class="project-link">View Code →</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+        <div class="contact-content">
+            <span class="section-label">Get in touch</span>
+            <h2 class="section-title">Get in Touch</h2>
+            <p style="color: var(--text-muted);">Open to data analyst opportunities. Reach out to discuss projects or potential roles.</p>
+            <a href="mailto:your.email@example.com" class="contact-email">your.email@example.com</a>
+            <div class="social-links">
+                <a href="https://github.com/IVFSS" class="social-link" title="GitHub">GH</a>
+                <a href="https://linkedin.com/in/IVFSS" class="social-link" title="LinkedIn">LI</a>
+                <a href="https://kaggle.com/IVFSS" class="social-link" title="Kaggle">KG</a>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <section class="skills">
-        <div class="container">
-            <h2>Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Languages & Tools</h3>
-                    <ul>
-                        <li>Python (Pandas, NumPy, Scikit-learn)</li>
-                        <li>SQL (SQLite, joins, aggregations)</li>
-                        <li>Git & GitHub</li>
-                        <li>Docker</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>Visualization</h3>
-                    <ul>
-                        <li>Matplotlib, Seaborn</li>
-                        <li>Plotly</li>
-                        <li>Streamlit dashboards</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>Machine Learning</h3>
-                    <ul>
-                        <li>Classification (Logistic Regression, Random Forest, SVM)</li>
-                        <li>NLP & Sentiment Analysis</li>
-                        <li>Feature Engineering</li>
-                        <li>Model Evaluation & Cross-validation</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>Data Engineering</h3>
-                    <ul>
-                        <li>API Integration</li>
-                        <li>ETL Pipelines</li>
-                        <li>SQLite Database Design</li>
-                        <li>Task Scheduling</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
+<footer>
+    <div class="container">
+        <p>Built with ❤️ using GitHub Pages | <a href="https://github.com/IVFSS/data-analyst-portfolio">View Source</a></p>
+    </div>
+</footer>
 
-    <footer>
-        <div class="container">
-            <p>Built with GitHub Pages | <a href="https://github.com/YOUR_USERNAME/data-analyst-portfolio">View Source on GitHub</a></p>
-        </div>
-    </footer>
+<script src="main.js"></script>
 </body>
 </html>
