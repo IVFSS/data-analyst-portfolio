@@ -1,4 +1,10 @@
-// Scroll-triggered fade-in using Intersection Observer
+// ===== NAVBAR SCROLL EFFECT =====
+const navbar = document.querySelector('.site-header');
+window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.pageYOffset > 40);
+}, { passive: true });
+
+// ===== INTERSECTION OBSERVER FOR FADE-INS =====
 const fadeObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -6,23 +12,46 @@ const fadeObserver = new IntersectionObserver((entries) => {
             fadeObserver.unobserve(entry.target);
         }
     });
-}, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+}, { threshold: 0.08 });
 
-document.querySelectorAll('.project-row, .skill-block, .service-card, .project-card-highlight').forEach((el, i) => {
-    el.style.transitionDelay = `${i * 0.06}s`;
+document.querySelectorAll('.skill-group, .project-item, .service-card').forEach((el, i) => {
+    el.style.animationDelay = `${i * 0.06}s`;
     fadeObserver.observe(el);
 });
 
-// Navbar shadow on scroll
-const navbar = document.getElementById('navbar');
-window.addEventListener('scroll', () => {
-    navbar.classList.toggle('scrolled', window.pageYOffset > 40);
-}, { passive: true });
+// ===== NUMBER COUNTER ANIMATION =====
+const counterObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            const el = entry.target;
+            const target = parseInt(el.dataset.count);
+            const suffix = el.dataset.suffix || '';
+            const duration = 2000;
+            const steps = duration / 30;
+            const increment = target / steps;
+            let current = 0;
 
-// Smooth scroll for all anchor links
+            const timer = setInterval(() => {
+                current += increment;
+                if (current >= target) {
+                    el.textContent = target.toLocaleString() + suffix;
+                    clearInterval(timer);
+                } else {
+                    el.textContent = Math.floor(current).toLocaleString() + suffix;
+                }
+            }, 30);
+
+            counterObserver.unobserve(el);
+        }
+    });
+}, { threshold: 0.6 });
+
+document.querySelectorAll('.hero-stat-num').forEach(counter => counterObserver.observe(counter));
+
+// ===== SMOOTH SCROLL =====
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', e => {
-        const href = anchor.getAttribute('href');
+    anchor.addEventListener('click', function(e) {
+        const href = this.getAttribute('href');
         if (href === '#') return;
         const target = document.querySelector(href);
         if (target) {
@@ -32,4 +61,4 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-console.log('Portfolio ready — animations active');
+console.log('Portfolio loaded');
